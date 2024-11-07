@@ -1,0 +1,96 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+<title>Super Company</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<body>
+  <header>
+    <nav>
+      <img class="logo" src="logo.png" alt="The Super Logo">
+      <ul class="nav-links">
+        <li><a href="#features">خصائص</a></li>
+        <li><a href="#gallery">الصهاريج</a></li>
+        <li><a href="#contact">للاتصال</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+  </section>
+  <section id="features" class="features">
+    <div class="feature">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z"/></svg>
+      <h3>تسليم سريع</h3>
+      <p>تسليم سريع وموثوق للوقود مع Super.</p>
+      <p>نحن نضمن تلبية احتياجاتك من الوقود بسرعة، وجودة مضمونة.</p>
+    </div>
+    <div class="feature">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M160-120v-640q0-33 23.5-56.5T240-840h240q33 0 56.5 23.5T560-760v280h40q33 0 56.5 23.5T680-400v180q0 17 11.5 28.5T720-180q17 0 28.5-11.5T760-220v-288q-9 5-19 6.5t-21 1.5q-42 0-71-29t-29-71q0-32 17.5-57.5T684-694l-84-84 42-42 148 144q15 15 22.5 35t7.5 41v380q0 42-29 71t-71 29q-42 0-71-29t-29-71v-200h-60v300H160Zm80-440h240v-200H240v200Zm480 0q17 0 28.5-11.5T760-600q0-17-11.5-28.5T720-640q-17 0-28.5 11.5T680-600q0 17 11.5 28.5T720-560ZM240-200h240v-280H240v280Zm240 0H240h240Z"/></svg>
+      <h3>خيارات الوقود</h3>
+      <p>تقدم شركة Super ثلاثة أنواع من الوقود:</p>
+      <p>Unleaded 95</p>
+      <p>Unleaded 98</p>
+      <p>Diesel</p>
+    </div>
+    <div class="feature">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>
+      <h3>توصيل</h3>
+      <p> نقوم بالتوصيل إلى جميع المناطق اللبنانية في أي وقت من الأسبوع.</p>
+    </div>
+  </section>
+</div>
+
+  <section class="machines-gallery" id="gallery">
+    <h2>الصهاريج</h2>
+    <div class="gallery">
+      <div class="gallery-item"><img src="machine1.jpg" alt="Machine 1"></div>
+      <div class="gallery-item"><img src="machine2.jpg" alt="Machine 2"></div>
+      <div class="gallery-item"><img src="machine3.jpg" alt="Machine 3"></div>
+      <div class="gallery-item"><img src="machine4.jpg" alt="Machine 4"></div>
+      <div class="gallery-item"><img src="machine5.jpg" alt="Machine 5"></div>
+      <div class="gallery-item"><img src="machine6.jpg" alt="Machine 6"></div>
+      <div class="gallery-item"><img src="machine7.jpg" alt="Machine 7"></div>
+      <div class="gallery-item"><img src="machine8.jpg" alt="Machine 8"></div>
+      <div class="gallery-item"><img src="machine9.jpg" alt="Machine 9"></div>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <h2>معلومات الاتصال</h2>
+    <h3>هاتف: 03/877144-78/877144</h3>
+    <h3>Instagram: <a href="https://www.instagram.com/super_company__/">Here</a></h3>
+  </section>
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+  
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  
+    function revealOnScroll() {
+      var reveals = document.querySelectorAll("section:not(.hero)");
+  
+      reveals.forEach((reveal) => {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveal.getBoundingClientRect().top;
+        var elementVisible = 150;
+  
+        if (elementTop < windowHeight - elementVisible) {
+          reveal.style.opacity = "1";
+          reveal.style.transform = "translateY(0)";
+        } else {
+          reveal.style.opacity = "0";
+          reveal.style.transform = "translateY(50px)";
+        }
+      });
+    }
+  
+    window.addEventListener("scroll", revealOnScroll);
+    revealOnScroll();
+  </script>
+</body>
+</html>
